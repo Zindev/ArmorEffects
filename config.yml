@@ -1,0 +1,22 @@
+sets:
+  leather:
+    #Given damage will be multiplied with this value.
+    damage-multiply: 1.5
+    #Amplifier of speed effect.0 means Speed I, 1 Speed II etc...
+    speed-level: 0
+  iron:
+    #Given damage will be multiplied with this value.
+    damage-multiply: 0.8
+    #Taken damage will be ignored if this chance occurs.
+    miss-chance: 20
+  chain:
+    #Given damage will be multiplied with this value.
+    damage-multiply: 1.1
+    #Taken damage will be ignored if this chance occurs.
+    miss-chance: 30
+  golden:
+    absorption:
+      #Amplifier of absorption effect.0 means Absorption I, 1 Absorption II etc...
+      level: 4
+      #Player's aborption hearts will get re-filled every this amount of seconds.
+      seconds: 10

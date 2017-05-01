@@ -1,0 +1,19 @@
+name: ${project.name} 
+author: Zindev
+version: ${project.version} 
+description: Gives specific effects on different worn armor sets.
+depend: [ZinUtils]
+main: me.Zindev.mechanics.ArmorEffects.MainArmor
+commands:
+  armoreffects:
+    aliases: [aeffects,armoref,armef]
+    description: ArmorEffects admin command.
+    permission: glider.admin
+permissions:
+  armoreffects.*:
+    description: Gives access to all ArmorEffects commands
+    children:
+      armoreffects.admin: true
+  armoreffects.admin:
+    description: Gives access to ArmorEffects admin commands
+  
