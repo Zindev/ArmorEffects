@@ -7,7 +7,7 @@ commands:
   armoreffects:
     aliases: [aeffects,armoref,armef]
     description: ArmorEffects admin command.
-    permission: glider.admin
+    permission: armoreffects.admin
 permissions:
   armoreffects.*:
     description: Gives access to all ArmorEffects commands
